@@ -1,0 +1,58 @@
+.sub{
+    top: 0%;
+    right: 60px;
+    position: fixed;
+    flex:1;
+    width:30%;
+    height: 100%;
+    box-sizing: border-box;
+}
+#title{
+    font-size: 40px;
+    color: orange;
+}
+.menu{
+    top: 0%;
+    left: 80px;
+    
+    /* 애가 문제 였구만... position: fixed; */
+    /* flex:1;
+    width:30%; */
+}
+.icon_menu{
+    width: 50px;
+    height: 50px;
+   
+}
+.setting_menu {
+    float: right;
+    width:60%;
+    height: auto;
+    line-height: 30px;
+}
+body{
+    display: flex;
+    background-color: gainsboro;
+    padding-left: 10%;
+    padding-right: 10%;
+    width:100%;
+    height:100vh;
+    text-align: center;
+}
+.main{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    flex:1;
+    width: 40%;
+    max-width: 40%;
+    height: 100%;
+}
+
+/* link - 아직 클릭하지 않은 경우 red 색상 설정 */
+a:link { color: black; text-decoration: none;}	
+/* visited - 한번 클릭하거나 전에 클릭한적 있을 경우 #c71d44 설정 */
+a:visited { color: black; text-decoration: none;}	
+/* hover - 마우스를 해당 링크에 위치했을 경우 #006DD7 설정 */
+a:hover { color: black; text-decoration: underline;}

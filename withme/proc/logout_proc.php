@@ -1,0 +1,9 @@
+<?php
+session_start();
+session_destroy();
+header("location: /login.php");
+?>
+<script>
+    alert("로그아웃 되었습니다");
+    location.replace('/login.php');
+</script>
